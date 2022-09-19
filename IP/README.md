@@ -1,3 +1,3 @@
 # Portfolio-s3
 
-Hier vind je alles wat betrekking heeft tot mijn individuele project.
+Here you will find everything that belongs to my individual project.
