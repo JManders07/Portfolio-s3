@@ -1,6 +1,6 @@
-#Portfolio individual project semester 3
+# Portfolio individual project semester 3
 
-##Jelle Manders
+## Jelle Manders
 ## Fontys ICT, Software
 
 ## Table of contents
