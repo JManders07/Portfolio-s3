@@ -3,8 +3,10 @@
 ### Jelle Manders, Fontys ICT, Software
 
 ## Table of contents
-Contents
-Table of contents	2
+- [Main goal application](#main-goal-application)
+- [Users](#users)
+- [Requirements](#requirements)
+- [User stories](#user-stories)
 
 
  
