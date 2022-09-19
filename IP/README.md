@@ -1,3 +1,3 @@
 # Portfolio-s3
 
-Dit is mijn Portfolio voor het individuele project in semester 3.
+Hier vind je alles wat betrekking heeft tot mijn individuele project.
