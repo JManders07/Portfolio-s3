@@ -1,3 +1,3 @@
 # Portfolio-s3
 
-Dit is mijn Portfolio voor semester 3. Je vind hier de portfolio die hoort bij mijn individuele project en het groepsproject.
+This is my Portfolio for semester 3. Here you can find my portfolio that belongs to my individual- and groupproject.
