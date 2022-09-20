@@ -5,6 +5,7 @@
 ## Table of contents
 - [Main goal application](#main-goal-application)
 - [Users](#users)
+- [Roadmap](#roadmap)
 
 ## Main goal application
 The main goal of my application is that an user can view multiple beers on the website. The beers will be collected from an API. After this an user can leave a commend or rate the beer. If there is enough time there will be also a chat where you can send messages to your friends. The front-end will be written on a javascript based language, probably react or vue. The back-end will be written on c# or java.
