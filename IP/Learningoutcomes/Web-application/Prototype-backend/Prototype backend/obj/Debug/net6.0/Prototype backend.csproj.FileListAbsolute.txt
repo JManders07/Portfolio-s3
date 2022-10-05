@@ -1,0 +1,54 @@
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\appsettings.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Prototype backend.exe
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Prototype backend.deps.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Prototype backend.runtimeconfig.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Prototype backend.pdb
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.AssemblyReference.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.AssemblyInfoInputs.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.AssemblyInfo.cs
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.CoreCompileInputs.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\scopedcss\bundle\Prototype backend.styles.css
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.CopyComplete
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\refint\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.pdb
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\Prototype backend.genruntimeconfig.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\1. Web application\Prototype backend\Prototype backend\obj\Debug\net6.0\ref\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\appsettings.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Prototype backend.exe
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Prototype backend.deps.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Prototype backend.runtimeconfig.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Prototype backend.pdb
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.AssemblyReference.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.AssemblyInfoInputs.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.AssemblyInfo.cs
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.CoreCompileInputs.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\scopedcss\bundle\Prototype backend.styles.css
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.csproj.CopyComplete
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\refint\Prototype backend.dll
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.pdb
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\Prototype backend.genruntimeconfig.cache
+C:\Users\jelle\Documents\GitHub\Portfolio-s3\IP\Learningoutcomes\Web-application\Prototype-backend\Prototype backend\obj\Debug\net6.0\ref\Prototype backend.dll
