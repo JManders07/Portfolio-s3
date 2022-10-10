@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './registerServiceWorker'
 import router from './router'
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)

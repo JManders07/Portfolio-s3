@@ -32,7 +32,7 @@ export default {
   },
   mounted(){
     axios
-      .get('https://localhost:7168/api/Beer/Beers')
+      .get('https://localhost:7168/api/beers/allbeers')
       .then(response=> {
         this.beerList = response.data
         console.warn(this.beerList)

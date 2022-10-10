@@ -1,5 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Prototype_backend.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Prototype_backendContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Prototype_backendContext") ?? throw new InvalidOperationException("Connection string 'Prototype_backendContext' not found.")));
 builder.Services.AddCors();
+builder.Services.AddTransient<BeerService>();
 // Add services to the container.
 
 builder.Services.AddControllers();
