@@ -8,7 +8,6 @@
                         <b-card-text>
                             {{beer.description}}
                         </b-card-text>
-                        <b-button href="beer.url" variant="danger">Read more</b-button>
                     </b-card>
   </div>
 </template>
