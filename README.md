@@ -8,7 +8,6 @@ My name is Jelle Manders, I'm 20 years old. I am studying HBO-ICT at Fontys Hoge
 ## Table of contents
 - [Introduction](#introduction)
 - [Web Application](#web-application)
-- [Roadmap](#roadmap)
 
 ## Web Application
 Summary of the learning outcome: You design and build user-friendly, full-stack web applications.
