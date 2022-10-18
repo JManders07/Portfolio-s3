@@ -16,6 +16,6 @@ For this learningoutcome I will make a full stack web application for beer lover
 
 For a full stack application we need to use a commonly accepted frontend Javascript framework. I have chosen for Vue with Vue-bootstrap for my front-end. For my back-end I am going to use two languages. For the main back-end I am going to use C#. For my Admin back-end I will use Java. In my C# back-end I will use entity framework. In my Java back-end I will use (to research). Before I made these choices I created some prototypes you'll find [here](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application).
 
-For my final project I made seperate git repo's. 
-[BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)
+For my final project I made seperate git repo's.  
+[BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)  
 [BeerWithFriends-Back-end](https://github.com/JManders07/BeerWithFriends-Back-end)
