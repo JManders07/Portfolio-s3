@@ -9,6 +9,9 @@ Mijn naam is Jelle Manders, 20 jaar oud. Ik ben student aan de opleiding HBO-ICT
 - [Introductie](#introductie)
 - [Web Application](#web-application)
 - [Software quality](#software-quality)
+- [CI/CD](#ci/cd)
+- [Requirements and design](#requirements-and-design)
+- [Professional](#professional)
 
 ## Web Application
 Samenvatting leeruitkomst: You design and build user-friendly, full-stack web applications.
