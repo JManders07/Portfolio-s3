@@ -9,13 +9,16 @@ Mijn naam is Jelle Manders, 20 jaar oud. Ik ben student aan de opleiding HBO-ICT
 - [Introductie](#introductie)
 - [Web Application](#web-application)
 - [Software quality](#software-quality)
+- [CI/CD](#ci-cd)
+- [Requirements and design](#requirements-and-design)
+- [Professional](#professional)
 
 ## Web Application
 Samenvatting leeruitkomst: You design and build user-friendly, full-stack web applications.
 
 Voor dit leeruitkomst maak ik een full stack web applicatie voor bierliefhebbers. Voor het user-friendly design heb ik een [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) gedaan over UI/UX. In dit document onderzoek ik verschillende aspecten wat betreft de UI/UX. Onder andere gaat het document over wat een UI is, hoe een een goede UI kan ontwerpen en hoe ik mijn design heb gemaakt.
 
-Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van 2 verschillende talen. Voor de algemene backend gebruik ik C# met entity framework. Ik gebruik ook Java met (nog te bepalen) framework. Dit om ook iets anders te leren dan C#. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.docx). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
+Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van 2 verschillende talen. Voor de algemene backend gebruik ik C# met entity framework. Ik gebruik ook Java met (nog te bepalen) framework. Dit om ook iets anders te leren dan C#. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.pdf). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
 
 //TODO Wanneer de gebruiker op de hoofdpagina komt dan ziet de gebruiker het volgende. De gebruiker kan vervolgens in de navigatiebalk aanklikken naar welke pagina die zou willen gaan. Dit wordt mogelijk door vue-router.
 
@@ -55,9 +58,27 @@ Voor de kwaliteit van mijn software is mijn backend geschreven in 5 lagen. Ik ge
 //TODO plaatje van factory of iets dergelijks om duidelijk te maken dat je kan wisselen van datalaag.
 
 ## CI/CD
+Samenvatting leeruitkomst: 
 //TODO Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid.
 
 //TODO plaatje overzicht veiligheid, onderhoudbaarheid en betrouwbaarheid.
 
 //TODO Microsoft azure.
  
+## Requirements and Design
+Zie hier [requirements](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design). En mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design.
+
+## Professional
+Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn applicatie altijd op staat zonder fouten. In Development maak ik de features die er nog bij gaan komen. Deze merge ik vervolgens met de master branch zodat er alleen maar funtionaliteiten inkomen die goed werken. 
+
+Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
+|:-------------|:------------|:-----------------|:----:|
+| Web application | Beginning | Er is communicatie tussen front en back end. Onderzoek gedaan | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application | 
+| Software quality | Orienting | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
+| Agile | Orienting | Ik werk in sprints met user stories | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
+| CI/CD | Orienting | Ik heb gekeken wat ik hiervoor moet doen en klein beetje onderzoek gedaan | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
+| Cultural differences and ethics | Orienting | Ik schrijf onderzoeken en code in het Engels en praten Engels wanneer er iemand uit het buitenland bij is. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
+| Requirements and design | Orienting | Ik heb wat requirements opgesteld en user stories gemaakt. Ook heb ik een begin gemaakt aan het design onderzoek. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
+| Business processes | Undefined | Wordt later aangepast, krijgen we nog een workshop over | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
+| Professional | Orienting | Ik maak gebruik van GIT. Voor front en back-end een aparte repo gemaakt. Onderzoek en code in het Engels zodat ook andere mijn onderzoek en code kunnen bekijken | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Professional
+
