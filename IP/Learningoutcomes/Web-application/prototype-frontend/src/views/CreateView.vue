@@ -39,7 +39,7 @@
 
   Vue.use(VueAxios, axios, VueRouter)
   export default {
-      name: 'AboutView',
+      name: 'CreateView',
       components: {
       },
       data() {
@@ -57,7 +57,7 @@
               console.warn(this.form)
               axios({
                   method: 'post',
-                  url: 'https://localhost:7168/api/beers/create',
+                  url: 'https://localhost:7168/api/beers/Create',
                   data: {
                       "name": this.form.name,
                       "description": this.form.description,
