@@ -8,13 +8,14 @@ Mijn naam is Jelle Manders, 20 jaar oud. Ik ben student aan de opleiding HBO-ICT
 ## Inhoudsopgave
 - [Introductie](#introductie)
 - [Web Application](#web-application)
+- [Software quality](#software-quality)
 
 ## Web Application
 Samenvatting leeruitkomst: You design and build user-friendly, full-stack web applications.
 
 Voor dit leeruitkomst maak ik een full stack web applicatie voor bierliefhebbers. Voor het user-friendly design heb ik een [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) gedaan over UI/UX. In dit document onderzoek ik verschillende aspecten wat betreft de UI/UX. Onder andere gaat het document over wat een UI is, hoe een een goede UI kan ontwerpen en hoe ik mijn design heb gemaakt.
 
-Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van 2 verschillende talen. Voor de algemene backend gebruik ik C# met entity framework. Voor de admin backend gebruik ik Java met (nog te bepalen) framework. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.docx). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
+Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van 2 verschillende talen. Voor de algemene backend gebruik ik C# met entity framework. Ik gebruik ook Java met (nog te bepalen) framework. Dit om ook iets anders te leren dan C#. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.docx). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
 
 //TODO Wanneer de gebruiker op de hoofdpagina komt dan ziet de gebruiker het volgende. De gebruiker kan vervolgens in de navigatiebalk aanklikken naar welke pagina die zou willen gaan. Dit wordt mogelijk door vue-router.
 
@@ -54,5 +55,9 @@ Voor de kwaliteit van mijn software is mijn backend geschreven in 5 lagen. Ik ge
 //TODO plaatje van factory of iets dergelijks om duidelijk te maken dat je kan wisselen van datalaag.
 
 ## CI/CD
+//TODO Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid.
 
+//TODO plaatje overzicht veiligheid, onderhoudbaarheid en betrouwbaarheid.
+
+//TODO Microsoft azure.
  
