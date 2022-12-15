@@ -52,20 +52,29 @@ Voor mijn project maak ik gebruik van aparte git repo's voor de backend en front
 Softwarekwaliteit is een breed begrip. Het is vaak moeilijk toe te passen omdat veel verschillende werkwijzes zijn om goede software te maken. De kwaliteit van software kun je eigenlijk zien als een vraag: "Doet de software wat hij moet doen?" Dat is een vraag die we kunnen beantwoorden aan de hand van testen. Het is belangrijk om testen te schrijven. Ik heb unit tests en integratie test gemaakt. Een unit test is een test waarbij een indivudeel component wordt getest. Het doel is om losse functies te controleren op de kwaliteit. Wanneer alle unit testen met succes uitgevoerd worden is het tijd voor de integratietesten. Een integratietest is een test die het geheel test, dus de hele applicatie ofwel alle componenten tegelijk. Een integratietest kijkt of alle componenten goed samenwerken.
 
 Hieronder zie je hoe ik een in memory database opzet. Dit is een tijdelijke database die iedere keer opgezet wordt als er een test wordt uitgevoerd. Er worden iedere keer 2 bieren aan toegevoegd zodat er altijd data in de testdatabase zit. Dit zou je ook op een andere manier kunnen doen, namelijk door middel van profiles. Je kunt dan aangeven in welke omgeving je werkt. Wanneer je bijvoorbeeld in een testomgeving werkt kun je dat selecteren en dan pakt hij automatisch bijvoorbeeld een andere connectiestring.
+
 ![image](https://user-images.githubusercontent.com/113422379/207880662-a7593718-7acc-417d-9e1a-cefc0e70bd34.png)
 
 Hieronder zie je een unit test:
+
 ![image](https://user-images.githubusercontent.com/113422379/207884448-98783d9e-b059-4176-8693-66e80aa62727.png)
 
-Hieronder zie je een integratie test:
+Hieronder zie je een integratie test: 
+
 ![image](https://user-images.githubusercontent.com/113422379/207884586-2a7281d0-4e7f-4510-b10a-37322909cdd2.png)
+
 
 Voor de kwaliteit van mijn software is mijn backend geschreven in 3 lagen. Ik gebruik op dit moment Entity framework zodat ikzelf de database als het ware niet aanraak. Je hoeft dan niet zelf query's te schrijven en beperkt hiermee de veiligheidsrisico's. Entity framework zorgt ervoor dat je door middel van een context toch acties kan uitvoeren op de database. De 3 lagen zorgen ervoor dat er niet direct vanuit de controller acties uitgevoerd kunnen worden die met de database te maken hebben.
 
 ## CI/CD
 Samenvatting leeruitkomst: You design and implement a (semi)automated software release process that matches the needs of the project context.
-Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid.
+Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid. 
 ![image](https://user-images.githubusercontent.com/113422379/207903114-5cf2d0ea-a5bf-4c18-b8fd-c1e80decfd40.png)
+
+Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb ik aangegeven wanneer er een push is op de master branch dat deze file wordt uitgevoerd. In deze file staat onder andere dat de sonarCloud scan uitgevoerd moet worden. Hieronder zie je hoe het Yaml bestand eruit ziet.
+
+![image](https://user-images.githubusercontent.com/113422379/207905750-7645ea55-6d9a-458d-8717-ac55c7c7d590.png)
+
 
 //TODO applicatie dockerizen.
  
@@ -78,11 +87,11 @@ Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn 
 Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
 |:-------------|:------------|:-----------------|:----:|
 | Web application | Beginning | Er is communicatie tussen front en back end. Onderzoek gedaan | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application | 
-| Software quality | Orienting | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
-| Agile | Orienting | Ik werk in sprints met user stories | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
-| CI/CD | Orienting | Ik heb gekeken wat ik hiervoor moet doen en klein beetje onderzoek gedaan | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
-| Cultural differences and ethics | Orienting | Ik schrijf onderzoeken en code in het Engels en praten Engels wanneer er iemand uit het buitenland bij is. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
-| Requirements and design | Orienting | Ik heb wat requirements opgesteld en user stories gemaakt. Ook heb ik een begin gemaakt aan het design onderzoek. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
+| Software quality | Beginning | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. Unit test en integratietests geschreven. Nu nog meer andere soorten tests. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
+| Agile | Proficient | Ik werk in sprints met user stories. Ook in het groepsproject maken we gebruik van sprints. Ik bekijk iedere sprint wat er moet gebeuren en pas waar nodig de requirements aan zodat ik flexibel te werk kan gaan. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
+| CI/CD | Beginning | Ik heb gekeken wat ik hiervoor moet doen en klein beetje onderzoek gedaan. Ik heb Sonarcloud werkend gekregen. Iedere keer als ik push dan wordt de scan uitgevoerd. De applicatie moet nog gedockerized worden. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
+| Cultural differences and ethics | Beginning | Ik schrijf onderzoeken en code in het Engels en praat Engels wanneer er iemand uit het buitenland bij is. Ik heb een workshop voorbereid (//todo geven). Ik houd rekening met hoe mijn groepsgenoten zijn. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
+| Requirements and design | Beginning | Ik heb requirements opgesteld en gesorteerd op MoSCow wijze. Ook heb ik userstories gemaakt. Verder heb ik designs gemaakt. C4/Architectuur model nog aanpassen | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
 | Business processes | Undefined | Wordt later aangepast, krijgen we nog een workshop over | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
 | Professional | Orienting | Ik maak gebruik van GIT. Voor front en back-end een aparte repo gemaakt. Onderzoek en code in het Engels zodat ook andere mijn onderzoek en code kunnen bekijken | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Professional
 
