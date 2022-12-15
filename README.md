@@ -18,7 +18,7 @@ Samenvatting leeruitkomst: You design and build user-friendly, full-stack web ap
 
 Voor dit leeruitkomst maak ik een full stack web applicatie voor bierliefhebbers. Voor het user-friendly design heb ik een [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/UI%20research.pdf) gedaan over UI/UX. In dit document onderzoek ik verschillende aspecten wat betreft de UI/UX. Onder andere gaat het document over wat een UI is, hoe een een goede UI kan ontwerpen en hoe ik mijn design heb gemaakt.
 
-Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van 2 verschillende talen. Voor de algemene backend gebruik ik C# met entity framework. Ik gebruik ook Java met (nog te bepalen) framework. Dit om ook iets anders te leren dan C#. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.pdf). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
+Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van c#. Voor de algemene backend gebruik ik C# met entity framework. De bedoeling was ook om nog Java te gebruiken maar dit is er niet meer van gekomen door gebrek aan tijd. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.pdf). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
 
 //TODO Wanneer de gebruiker op de hoofdpagina komt dan ziet de gebruiker het volgende. De gebruiker kan vervolgens in de navigatiebalk aanklikken naar welke pagina die zou willen gaan. Dit wordt mogelijk door vue-router.
 
@@ -49,24 +49,28 @@ Voor mijn project maak ik gebruik van aparte git repo's voor de backend en front
  ## Software quality
  Samenvatting leeruitkomst: You use software tooling and methodology that continuously monitors and improve the software quality during software development.
  
-//TODO Softwarekwaliteit is een breed begrip. Het is vaak moeilijk toe te passen omdat veel verschillende werkwijzes zijn om goede software te maken. De kwaliteit van software kun je eigenlijk zien als een vraag: "Doet de software wat hij moet doen?" Dat is een vraag die we kunnen beantwoorden aan de hand van testen. Het is belangrijk om testen te schrijven. Ik heb unit tests en integratie test gemaakt. Een unit test is een test waarbij een indivudeel component wordt getest. Het doel is om losse functies te controleren op de kwaliteit. Wanneer alle unit testen met succes uitgevoerd worden is het tijd voor de integratietesten. Een integratietest is een test die het geheel test, dus de hele applicatie ofwel alle componenten tegelijk. Een integratietest kijkt of alle componenten goed samenwerken.
+Softwarekwaliteit is een breed begrip. Het is vaak moeilijk toe te passen omdat veel verschillende werkwijzes zijn om goede software te maken. De kwaliteit van software kun je eigenlijk zien als een vraag: "Doet de software wat hij moet doen?" Dat is een vraag die we kunnen beantwoorden aan de hand van testen. Het is belangrijk om testen te schrijven. Ik heb unit tests en integratie test gemaakt. Een unit test is een test waarbij een indivudeel component wordt getest. Het doel is om losse functies te controleren op de kwaliteit. Wanneer alle unit testen met succes uitgevoerd worden is het tijd voor de integratietesten. Een integratietest is een test die het geheel test, dus de hele applicatie ofwel alle componenten tegelijk. Een integratietest kijkt of alle componenten goed samenwerken.
 
-//TODO plaatjes van testen met uitleg erbij
+Hieronder zie je hoe ik een in memory database opzet. Dit is een tijdelijke database die iedere keer opgezet wordt als er een test wordt uitgevoerd. Er worden iedere keer 2 bieren aan toegevoegd zodat er altijd data in de testdatabase zit. Dit zou je ook op een andere manier kunnen doen, namelijk door middel van profiles. Je kunt dan aangeven in welke omgeving je werkt. Wanneer je bijvoorbeeld in een testomgeving werkt kun je dat selecteren en dan pakt hij automatisch bijvoorbeeld een andere connectiestring.
+![image](https://user-images.githubusercontent.com/113422379/207880662-a7593718-7acc-417d-9e1a-cefc0e70bd34.png)
 
-Voor de kwaliteit van mijn software is mijn backend geschreven in 5 lagen. Ik gebruik op dit moment Entity framework zodat ikzelf de database als het ware niet aanraak. Entity framework zorgt ervoor dat je door middel van een context toch acties kan uitvoeren op de database. De 5 lagen zorgen ervoor dat ik kan wisselen van databse. Dit is vooral belangijk voor het testen. Wanneer ik met mijn echte database test kan het voorkomen dat ik belangrijke informatie wis of onjuiste informatie toevoeg. Ik maak een mock database zodat ik altijd mijn originele data veilig houd.
+Hieronder zie je een unit test:
+![image](https://user-images.githubusercontent.com/113422379/207884448-98783d9e-b059-4176-8693-66e80aa62727.png)
 
-//TODO plaatje van factory of iets dergelijks om duidelijk te maken dat je kan wisselen van datalaag.
+Hieronder zie je een integratie test:
+![image](https://user-images.githubusercontent.com/113422379/207884586-2a7281d0-4e7f-4510-b10a-37322909cdd2.png)
+
+Voor de kwaliteit van mijn software is mijn backend geschreven in 3 lagen. Ik gebruik op dit moment Entity framework zodat ikzelf de database als het ware niet aanraak. Je hoeft dan niet zelf query's te schrijven en beperkt hiermee de veiligheidsrisico's. Entity framework zorgt ervoor dat je door middel van een context toch acties kan uitvoeren op de database. De 3 lagen zorgen ervoor dat er niet direct vanuit de controller acties uitgevoerd kunnen worden die met de database te maken hebben.
 
 ## CI/CD
-Samenvatting leeruitkomst: 
-//TODO Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid.
+Samenvatting leeruitkomst: You design and implement a (semi)automated software release process that matches the needs of the project context.
+Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid.
+![image](https://user-images.githubusercontent.com/113422379/207903114-5cf2d0ea-a5bf-4c18-b8fd-c1e80decfd40.png)
 
-//TODO plaatje overzicht veiligheid, onderhoudbaarheid en betrouwbaarheid.
-
-//TODO Microsoft azure.
+//TODO applicatie dockerizen.
  
 ## Requirements and Design
-Zie hier [requirements](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design). En mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design.
+Zie hier mijn opgestelde [requirements](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design). In dit bestand vind je ook user stories en de requirements gesorteerd op MoSCoW wijze. Mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design is voor de designs. //TODO Het architectuurmodel(C4 Model).
 
 ## Professional
 Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn applicatie altijd op staat zonder fouten. In Development maak ik de features die er nog bij gaan komen. Deze merge ik vervolgens met de master branch zodat er alleen maar funtionaliteiten inkomen die goed werken. 
