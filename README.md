@@ -86,7 +86,7 @@ Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn 
 
 Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
 |:-------------|:------------|:-----------------|:----:|
-| Web application | Beginning | Er is communicatie tussen front en back end. Onderzoek gedaan | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application | 
+| Web application | Beginning | Er is communicatie tussen front en back end. Onderzoek gedaan. Nog functies toevoegen. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application | 
 | Software quality | Beginning | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. Unit test en integratietests geschreven. Nu nog meer andere soorten tests. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
 | Agile | Proficient | Ik werk in sprints met user stories. Ook in het groepsproject maken we gebruik van sprints. Ik bekijk iedere sprint wat er moet gebeuren en pas waar nodig de requirements aan zodat ik flexibel te werk kan gaan. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
 | CI/CD | Beginning | Ik heb gekeken wat ik hiervoor moet doen en klein beetje onderzoek gedaan. Ik heb Sonarcloud werkend gekregen. Iedere keer als ik push dan wordt de scan uitgevoerd. De applicatie moet nog gedockerized worden. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
