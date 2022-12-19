@@ -1,7 +1,7 @@
 <template>
   <div>
       <div>
-          <h1>Create beer</h1>
+          <h1>New beer</h1>
           <hr /><br />
       </div>
       <div>
