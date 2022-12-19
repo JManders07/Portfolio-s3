@@ -84,20 +84,25 @@ Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb i
 //TODO applicatie dockerizen.
  
 ## Requirements and Design
+Samenvatting leeruitkomst: ou analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 Zie hier mijn opgestelde [requirements](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Requirements%20and%20design/Requirements.pdf). In dit bestand vind je ook user stories en de requirements gesorteerd op MoSCoW wijze. Mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design is voor de schermontwerpen. Mijn compleet uitgewerkte c4 model kun je per laag vinden in de map voor [requirements en design](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design) //TODO Het architectuurmodel(C4 Model).
+
+## Business processes
+
 
 ## Professional
 Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn applicatie altijd op staat zonder fouten. In Development maak ik de features die er nog bij gaan komen. Deze merge ik vervolgens met de master branch zodat er alleen maar funtionaliteiten inkomen die goed werken. 
+
 Huidige zelfreflectie:
 Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
 |:-------------|:------------|:-----------------|:----:|
 | Web application | Beginning | Er is communicatie tussen front en back end. Onderzoek gedaan. Nog functies toevoegen. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application | 
 | Software quality | Beginning | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. Unit test en integratietests geschreven. Nu nog meer andere soorten tests. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
 | Agile | Proficient | Ik werk in sprints met user stories. Ook in het groepsproject maken we gebruik van sprints. Ik bekijk iedere sprint wat er moet gebeuren en pas waar nodig de requirements aan zodat ik flexibel te werk kan gaan. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
-| CI/CD | Beginning | Ik heb gekeken wat ik hiervoor moet doen en klein beetje onderzoek gedaan. Ik heb Sonarcloud werkend gekregen. Iedere keer als ik push dan wordt de scan uitgevoerd. De applicatie moet nog gedockerized worden. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
+| CI/CD | Beginning | Ik heb gekeken wat ik hiervoor moet doen en onderzoek gedaan. Ik heb Sonarcloud werkend gekregen. Iedere keer als ik push dan wordt de scan uitgevoerd. De applicatie moet nog gedockerized worden. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
 | Cultural differences and ethics | Beginning | Ik schrijf onderzoeken en code in het Engels en praat Engels wanneer er iemand uit het buitenland bij is. Ik heb een workshop voorbereid (//todo geven). Ik houd rekening met hoe mijn groepsgenoten zijn. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
-| Requirements and design | Beginning | Ik heb requirements opgesteld en gesorteerd op MoSCow wijze. Ook heb ik userstories gemaakt. Verder heb ik designs gemaakt. C4/Architectuur model nog aanpassen | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
-| Business processes | Undefined | Wordt later aangepast, krijgen we nog een workshop over | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
+| Requirements and design | Beginning | Ik heb requirements opgesteld en gesorteerd op MoSCow wijze. Ook heb ik userstories gemaakt. Verder heb ik designs gemaakt. C4/Architectuur model nog aanpassen. Als het moet nog databasediagram maken. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
+| Business processes | Proficient | Ik heb iedere week een gesprek met mijn individuele docent om te laten zien wat ik heb. In het groepsproject hebben we iedere 3 weken een gesprek met de stakeholder. We gaan hierin het gesprek aan over wat zij willen dat er klaar is de volgende sprint. Ik maak gebruik van het Github planningsbord met labels. Zo heb ik altijd duidelijk wat ik doe en kunnen anderen die in mijn project inspringen | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
 | Professional | Orienting | Ik maak gebruik van GIT. Voor front en back-end een aparte repo gemaakt. Onderzoek en code in het Engels zodat ook andere mijn onderzoek en code kunnen bekijken | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Professional
 
 Vorige zelfreflectie:
