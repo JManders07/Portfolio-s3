@@ -36,11 +36,16 @@ Tot zover mijn frontend uitgelegd. Wat betreft de backend maak ik gebruik van ee
 
 //TODO plaatje database
 
-In mijn C# backend heb ik zelf API calls gemaakt die ervoor zorgen dat ik met de frontend kan communiceren. Ik kan bijvoorbeeld via de frontend bieren opvragen aan de backend. Deze worden vervolgens door middel van een API call doorgestuurd aan de frontend. De pagina staat nu vol met de opgevraagde bieren. Dit is een POST in de backend. Anderssom kan het namelijk ook. Wanneer ik een biertje of review wil toevoegen aan de database roept de frontend ook een API call aan. De backend verkrijgt nu informatie van de frontend en stopt deze in de database. Dit is een GET.
+In mijn C# backend heb ik zelf API calls gemaakt die ervoor zorgen dat ik met de frontend kan communiceren. Ik kan bijvoorbeeld via de frontend bieren opvragen aan de backend. Deze worden vervolgens door middel van een API call doorgestuurd aan de frontend. De pagina staat nu vol met de opgevraagde bieren. Dit is een POST in de backend. 
 
-//TODO plaatje POSTmethod
+![image](https://user-images.githubusercontent.com/113422379/208440807-c534388c-1ae3-423c-b47a-94e36b234cb2.png)
 
-//TODO plaatje GETmethod
+Anderssom kan het namelijk ook. Wanneer ik een biertje of review wil toevoegen aan de database roept de frontend ook een API call aan. De backend verkrijgt nu informatie van de frontend en stopt deze in de database. Dit is een GET.
+
+Hieronder zie je een afbeelding van hoe een GET method eruit ziet:
+
+![image](https://user-images.githubusercontent.com/113422379/208440623-99f14e75-532e-4242-a301-26b78457fa72.png)
+
 
 Voor mijn project maak ik gebruik van aparte git repo's voor de backend en frontend.  
 [BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)  
@@ -79,7 +84,7 @@ Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb i
 //TODO applicatie dockerizen.
  
 ## Requirements and Design
-Zie hier mijn opgestelde [requirements](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design). In dit bestand vind je ook user stories en de requirements gesorteerd op MoSCoW wijze. Mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design is voor de designs. //TODO Het architectuurmodel(C4 Model).
+Zie hier mijn opgestelde [requirements](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Requirements%20and%20design/Requirements.pdf). In dit bestand vind je ook user stories en de requirements gesorteerd op MoSCoW wijze. Mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design is voor de schermontwerpen. Mijn compleet uitgewerkte c4 model kun je per laag vinden in de map voor [requirements en design](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design) //TODO Het architectuurmodel(C4 Model).
 
 ## Professional
 Ik maak gebruik van GIT. //TODO Ik heb branches aangemaakt. Master is waar mijn applicatie altijd op staat zonder fouten. In Development maak ik de features die er nog bij gaan komen. Deze merge ik vervolgens met de master branch zodat er alleen maar funtionaliteiten inkomen die goed werken. 
