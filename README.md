@@ -76,7 +76,7 @@ Samenvatting leeruitkomst: You design and implement a (semi)automated software r
 Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid. 
 ![image](https://user-images.githubusercontent.com/113422379/207903114-5cf2d0ea-a5bf-4c18-b8fd-c1e80decfd40.png)
 
-Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb ik aangegeven wanneer er een push is op de master branch dat deze file wordt uitgevoerd. In deze file staat onder andere dat de sonarCloud scan uitgevoerd moet worden. Hieronder zie je hoe het Yaml bestand eruit ziet.
+Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb ik aangegeven wanneer er een push is op de main branch dat deze file wordt uitgevoerd. In deze file staat onder andere dat de sonarCloud scan uitgevoerd moet worden. Hieronder zie je hoe het Yaml bestand eruit ziet.
 
 ![image](https://user-images.githubusercontent.com/113422379/207905750-7645ea55-6d9a-458d-8717-ac55c7c7d590.png)
 
