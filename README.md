@@ -74,7 +74,7 @@ Voor de kwaliteit van mijn software is mijn backend geschreven in 3 lagen. Ik ge
 ## CI/CD
 Samenvatting leeruitkomst: You design and implement a (semi)automated software release process that matches the needs of the project context.
 Ik maak gebruik van SonarCloud. Dit is een omgeving die je code analyseert. Je ziet hier de veiligheid, onderhoudbaarheid en betrouwbaarheid van je code. Kortom zie je dus een stuk code wat qua veiligheid niet in orde is. Code smells wat niet onderhoudbaar is en bugs voor betrouwbaarheid. 
-![image](https://user-images.githubusercontent.com/113422379/207903114-5cf2d0ea-a5bf-4c18-b8fd-c1e80decfd40.png)
+![image](https://user-images.githubusercontent.com/113422379/211168406-d2168406-a9db-49d4-869e-ed34c555fee4.png)
 
 Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb ik aangegeven wanneer er een push is op de main branch dat deze file wordt uitgevoerd. In deze file staat onder andere dat de sonarCloud scan uitgevoerd moet worden. Hieronder zie je hoe het Yaml bestand eruit ziet.
 
