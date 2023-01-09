@@ -20,32 +20,68 @@ Voor dit leeruitkomst maak ik een full stack web applicatie voor bierliefhebbers
 
 Voor een fullstack applicatie moeten we gebruik maken van een algemeen geaccepteerd fronted Javascript framework. Ik heb gekozen voor Vue met Vue-Bootstrap. Voor de backend maak ik gebruik van c#. Voor de algemene backend gebruik ik C# met entity framework. De bedoeling was ook om nog Java te gebruiken maar dit is er niet meer van gekomen door gebrek aan tijd. Mijn beargumentatie is te vinden in mijn [onderzoeksdocument](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/Research.pdf). Nadat ik onderzoek had gedaan, heb ik ook wat [prototypes](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application) gemaakt.
 
-//TODO Wanneer de gebruiker op de hoofdpagina komt dan ziet de gebruiker het volgende. De gebruiker kan vervolgens in de navigatiebalk aanklikken naar welke pagina die zou willen gaan. Dit wordt mogelijk door vue-router.
+Wanneer de gebruiker op de hoofdpagina komt dan ziet de gebruiker het volgende. De gebruiker kan vervolgens in de navigatiebalk aanklikken naar welke pagina die zou willen gaan. Dit wordt mogelijk door vue-router.
 
-//TODO plaatje hoofdscherm
+![image](https://user-images.githubusercontent.com/113422379/211394905-4c316f0a-8130-42f4-9d59-ac51b60f6461.png)
 
-//TODO Voor accounts gebruik in een extentie genaamd Auth0. Auth0 is makkelijk toe te voegen als authenticatie- en autorisatieservice. Ik heb gekozen om niet zelf een loginsysteem te maken omdat er al ontzettend veel systemen bestaan. Het is daarom zonde van de tijd, en risicovoller wat betreft beveiliging, als ik zelf een loginsysteem ga maken.
+!!Wel mee bezig geweest en onderzoek naar gedaan maar niet volledig werkend gekregen!!
+Voor accounts gebruik in een extentie genaamd Auth0. Auth0 is makkelijk toe te voegen als authenticatie- en autorisatieservice. Ik heb gekozen om niet zelf een loginsysteem te maken omdat er al ontzettend veel systemen bestaan. Het is daarom zonde van de tijd, en risicovoller wat betreft beveiliging, als ik zelf een loginsysteem ga maken.
 
-//TODO plaatje Auth0
+Gebruikers van mijn applicatie kunnen een review achterlaten op een bepaald biertje. Ze kunnen een score geven van 1 tot 10 op basis van sterren. Dit maakt het wat gebruiksvriendelijker dan een getal. Ook kunnen ze een reactie typen als toevoeging op de review.
 
-//TODO Gebruikers van mijn applicatie kunnen een review achterlaten op een bepaald biertje. Ze kunnen een score geven van 1 tot 10 op basis van sterren. Dit maakt het wat gebruiksvriendelijker dan een getal. Ook kunnen ze een reactie typen als toevoeging op de review.
+![image](https://user-images.githubusercontent.com/113422379/211395434-e817e452-e7f7-4b9e-bb62-3f7214f3f6d9.png)
 
-//TODO plaatje review
+Tot zover mijn frontend uitgelegd. Wat betreft de backend maak ik gebruik van een apart lopende database. Hier staan alle bieren en reviews in opgeslagen. Ik maak gebruik van een MySQL database. In een relationele database wordt alle data opgeslagen in opslagruimtes, genaamd tabellen. Het databasebeheersysteem is ontwikkeld door Oracle. Hieronder zie je een voorbeeld van een tabel.
 
-Tot zover mijn frontend uitgelegd. Wat betreft de backend maak ik gebruik van een apart lopende database. Hier staan alle bieren en reviews in opgeslagen. Ik maak gebruik van een MySQL database. In een relationele database wordt alle data opgeslagen in opslagruimtes, genaamd tabellen. Het databasebeheersysteem is ontwikkeld door Oracle. 
-
-//TODO plaatje database
+![image](https://user-images.githubusercontent.com/113422379/211395645-b1642188-3f18-49c4-8d4e-1f385edc63fb.png)
 
 In mijn C# backend heb ik zelf API calls gemaakt die ervoor zorgen dat ik met de frontend kan communiceren. Ik kan bijvoorbeeld via de frontend bieren opvragen aan de backend. Deze worden vervolgens door middel van een API call doorgestuurd aan de frontend. De pagina staat nu vol met de opgevraagde bieren. Dit is een POST in de backend. 
 
-![image](https://user-images.githubusercontent.com/113422379/208440807-c534388c-1ae3-423c-b47a-94e36b234cb2.png)
+```c#
+[HttpPost]
+        public string NewBeer([FromBody] Beer beer)
+        {
+            if (beer != null)
+            {
+                try
+                {
+                    _beerLogic.NewBeer(beer);
+                    return "Perfect";
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            return "";
+        }
+  ```
 
 Anderssom kan het namelijk ook. Wanneer ik een biertje of review wil toevoegen aan de database roept de frontend ook een API call aan. De backend verkrijgt nu informatie van de frontend en stopt deze in de database. Dit is een GET.
 
 Hieronder zie je een afbeelding van hoe een GET method eruit ziet:
 
-![image](https://user-images.githubusercontent.com/113422379/208440623-99f14e75-532e-4242-a301-26b78457fa72.png)
+```c#
+[Route("[action]")]
+        [HttpGet]
+        public JsonResult Beers()
+        {
+            List<Beer> beers = new();
+            foreach (var beer in _beerLogic.Beers())
+            {
+                beers.Add(beer);
+            }
+            return Json(beers);
+        }
 
+        [HttpGet("{id:int}")]
+        public JsonResult Beer(int id)
+        {
+            Beer beer = _beerLogic.Beer(id);
+            return Json(beer);
+        }
+```
 
 Voor mijn project maak ik gebruik van aparte git repo's voor de backend en frontend.  
 [BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)  
@@ -58,17 +94,104 @@ Softwarekwaliteit is een breed begrip. Het is vaak moeilijk toe te passen omdat 
 
 Hieronder zie je hoe ik een in memory database opzet. Dit is een tijdelijke database die iedere keer opgezet wordt als er een test wordt uitgevoerd. Er worden iedere keer 2 bieren aan toegevoegd zodat er altijd data in de testdatabase zit. Dit zou je ook op een andere manier kunnen doen, namelijk door middel van profiles. Je kunt dan aangeven in welke omgeving je werkt. Wanneer je bijvoorbeeld in een testomgeving werkt kun je dat selecteren en dan pakt hij automatisch bijvoorbeeld een andere connectiestring.
 
-![image](https://user-images.githubusercontent.com/113422379/207880662-a7593718-7acc-417d-9e1a-cefc0e70bd34.png)
+```c#
+[TestInitialize]
+        public void Setup()
+        {
+            var dbContextOptions =
+                new DbContextOptionsBuilder<BeerWithFriendsBackendContext>().UseInMemoryDatabase("TestDb");
+            _context = new BeerWithFriendsBackendContext(dbContextOptions.Options);
+            _context.Database.EnsureCreated();
+
+            var beerData = new BeerData(_context);
+
+            _logic = new BeerLogic(beerData);
+
+            var beer1 = new Beer
+            {
+                Name = "La chouffe",
+                Description = "Erg lekker",
+                AlcoholPercentage = 6
+            };
+
+            var beer2 = new Beer
+            {
+                Name = "Heineken",
+                Description = "Lekker",
+                AlcoholPercentage = 5
+            };
+
+            _logic.NewBeer(beer1);
+            _logic.NewBeer(beer2);
+        }
+```
 
 Hieronder zie je een unit test:
 
-![image](https://user-images.githubusercontent.com/113422379/207884448-98783d9e-b059-4176-8693-66e80aa62727.png)
+```c#
+[TestMethod]
+        public void TryCreate1BeerTest()
+        {
+            var beer3 = new Beer
+            {
+                Name = "La chouffe",
+                Description = "Erg lekker",
+                AlcoholPercentage = 6
+            };
+
+
+            var text = _logic.NewBeer(beer3);
+
+            Assert.AreEqual("Succes", text);
+        }
+ ```
 
 Hieronder zie je een integratie test: 
 
-![image](https://user-images.githubusercontent.com/113422379/207884586-2a7281d0-4e7f-4510-b10a-37322909cdd2.png)
+```c#
+[TestMethod]
+        public void TryCreate2Beers1Fail1SuccesTest()
+        {
+            var beer3 = new Beer
+            {
+                Name = "La chouffe",
+                Description = "Erg lekker",
+                AlcoholPercentage = -6
+            };
 
+            var beer4 = new Beer
+            {
+                Name = "Heineken",
+                Description = "Lekker",
+                AlcoholPercentage = 5
+            };
 
+            _logic.NewBeer(beer3);
+            _logic.NewBeer(beer4);
+
+            Assert.AreEqual(3, _logic.Beers().Count);
+        }
+ ```
+
+Er zijn ook nog end 2 end tests gemaakt. Deze zijn gemaakt met het Cypress framework. Dit is een erg populair en krachtig testframework. Hieronder zie je hoe een end 2 end test eruit ziet. Deze end 2 end test kijkt of dat je naar de pagina kan gaan voor een nieuw biertje aan te maken, vervolgens maakt cypress dit biertje aan en kijkt of hij daadwerkelijk is aangemaakt. Als dit alles klopt dan verwijderd cypress het biertje weer om onnodige data te voorkomen.
+
+```js
+describe('template spec', () => {
+  it('Goes to the beerpage and finds a beer with the name Jupiler', () => {
+    cy.visit('/')
+    cy.contains('New Beer').click()
+    cy.get('#__BVID__19').type('Cypress')
+    cy.get('#__BVID__20').type('Cypress is very good at testing')
+    cy.get('#__BVID__21').type('5')
+    cy.contains('Submit').click()
+    cy.contains('Beers').click()
+    cy.get(':nth-child(2) > .card-body > :nth-child(3) > a').click()
+    cy.contains('Cypress')
+    cy.contains('Delete').click()
+    cy.reload()
+  })
+})
+```
 Voor de kwaliteit van mijn software is mijn backend geschreven in 3 lagen. Ik gebruik op dit moment Entity framework zodat ikzelf de database als het ware niet aanraak. Je hoeft dan niet zelf query's te schrijven en beperkt hiermee de veiligheidsrisico's. Entity framework zorgt ervoor dat je door middel van een context toch acties kan uitvoeren op de database. De 3 lagen zorgen ervoor dat er niet direct vanuit de controller acties uitgevoerd kunnen worden die met de database te maken hebben.
 
 ## CI/CD
@@ -80,11 +203,35 @@ Dit wordt geregeld in een Yaml file in github actions. In dit Yaml bestand heb i
 
 ![image](https://user-images.githubusercontent.com/113422379/207905750-7645ea55-6d9a-458d-8717-ac55c7c7d590.png)
 
+De hierboven beschreven end to end test wordt automatisch getest door de pipeline van github. Door het onderstaande stuk code worden alle end 2 end tests uitgevoerd en weet ik meteen als er iets niet goed werkt.
+```yml
+name: Cypress Tests
 
-//TODO applicatie dockerizen.
+on: [push]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5 # use the explicit version number
+        with:
+          build: npm run build
+          start: npm run serve
+```
+
+Ik heb mijn applicatie in een docker image staan die je vervolgens in een docker container kunt runnen. Deze docker container kun je gebruiken als je de website online gaat zetten. Het maakt dan niet uit vanaf welk apparaat je het opstart. Hieronder zie je de image.
+![image](https://user-images.githubusercontent.com/113422379/211399049-ddb0ebe5-38dc-42fb-880b-3b2837759f26.png)
+
+Als je via de terminal de docker container runt dan zie je in het overzicht van containers het volgende. Je ziet de poort 8080 staan. Dat wil zeggen dat je nu dus via de 8080 poort de applicatie kunt bezoeken.
+![image](https://user-images.githubusercontent.com/113422379/211399227-50edbac0-88a3-4cbb-9553-0b9b0bf32024.png)
  
 ## Requirements and Design
-Samenvatting leeruitkomst: ou analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
+Samenvatting leeruitkomst: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 Zie hier mijn opgestelde [requirements](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Requirements%20and%20design/Requirements.pdf). In dit bestand vind je ook user stories en de requirements gesorteerd op MoSCoW wijze. Mijn [onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Documentation/UI%20Research.pdf) voor design is voor de schermontwerpen. Mijn compleet uitgewerkte c4 model kun je per laag vinden in de map voor [requirements en design](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design) //TODO Het architectuurmodel(C4 Model).
 
 ## Business processes
