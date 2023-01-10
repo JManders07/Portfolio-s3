@@ -10,8 +10,8 @@ Mijn naam is Jelle Manders, 20 jaar oud. Ik ben student aan de opleiding HBO-ICT
 - [Web Application](#web-application)
 - [Software quality](#software-quality)
 - [Agile](#agile)
-- [CI/CD](#ci-cd)
-- [Cultural differences and Ethics(#cultural-differences-and-ethics)
+- [CI CD](#ci-cd)
+- [Cultural differences and Ethics](#cultural-differences-and-ethics)
 - [Requirements and design](#requirements-and-design)
 - [Business Processes](#business-processes)
 - [Professional](#professional)
@@ -41,7 +41,7 @@ Samenvatting leeruitkomst: You choose and implement the most suitable agile soft
 In dit semester heb ik ervoor gekozen om met de agile methode SCRUM te werken. 
 - [Agile onderzoek](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method)
 
-## CI/CD
+## CI CD
 Samenvatting leeruitkomst: You design and implement a (semi)automated software release process that matches the needs of the project context.
 
 Continious integration en continious delivery:
