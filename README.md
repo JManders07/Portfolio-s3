@@ -48,7 +48,11 @@ Continious integration en continious delivery:
 - [CI/CD](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD/README.md)
 
 ## Cultural differences and Ethics
+Ik heb onderzoek gedaan naar Cultural differences and Ethics en mijn eigen kijk op dit aspect vastgelegd:
+- [Cultural differences and Ethics](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics)
 
+Ook heb ik een workshop voorbereid en gegeven:
+- [Workshop Cultural differences and Ethics](https://github.com/fontys-open-up/2223nj-db03/tree/main/ethics-and-cultural-differences-workshop)
 ## Requirements and Design
 Samenvatting leeruitkomst: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 - [requirements](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Requirements%20and%20design/Requirements.pdf)
@@ -67,8 +71,11 @@ Hierop kan ik tags toevoegen en verslepen tussen de 4 tabjes. Zo kun je per spri
 ## Zelfreflectie
 
 Wat ging er goed?
+
 In mijn individueel project ging het op het begin goed. Ik had veel onderzoek gedaan. Dit resulteerde in een brede kennis. In het groepsproject is de samenwerking ook goed gegaan. Ook de communicatie met de opdrachtgever ging goed. Zoals beschreven hadden we iemand die ziek was maar hebben we dit professioneel opgelost met de opdrachtgever. 
+
 Wat kan er beter?
+
 Ik ben in het begin veel met onderzoek bezig geweest. Te veel zelfs, ik had eerder moeten beginnen met het concreet afmaken van de uitkomsten van mijn onderzoek. Ook had ik mijn onderzoek beter moeten notuleren. Verder ben ik op het laatst te laat begonnen en heb ik erg hard moeten werken de laatste weken met als resultaat dat niet alles is geworden als hoe ik het voor me had gezien. 
 
 Huidige zelfreflectie:
