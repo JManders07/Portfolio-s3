@@ -1,10 +1,11 @@
 # Portfolio-s3
 
 ## Inhoudsopgave
-- [Introductie](#introductie)
-- [Web Application](#web-application)
-- [Software quality](#software-quality)
-- [Agile](#agile)
+- [Wat is een business process](#wat-is-een-business-process)
+- [Voorbeeld business process](#voorbeeld-business-process)
+- [5 stappen voor een business process in software](#5-stappen-voor-een-business-process-in-software)
+- [Userstory mapping](#userstory-mapping)
+  -[Userstory mapping in 3 stappen](#User-story-mapping-in-3-stappen)
 
 ## Wat is een business process?
 Een business process is een stappenplan voor stakeholders om een concreet doel te bereiken. Elke stap in dit process is een taak die uitgevoerd moet worden. Een business process is de grondslag voor proces optimalisatie etc.
