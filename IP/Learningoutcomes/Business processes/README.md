@@ -38,3 +38,8 @@ Activiteiten stellen de hoogwaardige taken voor die gebruikers willen voltooien 
 Stappen staan direct onder activiteiten en verschijnen ook in sequentiële volgorde. Ze vertegenwoordigen de specifieke subtaken die gebruikers moeten doorlopen binnen het product om de activiteit hierboven te voltooien. Bijvoorbeeld, de activiteit "Stort een cheque" kan worden afgebroken in de stappen "Voer mobiele depositgegevens in", "Teken cheque", "Fotografeer cheque", "Verzend storting" en "Bevestig storting".
 
 Details zijn het derde niveau van de story map en beschrijven de laagste granulariteit interacties die het team verwacht dat gebruikers zullen ervaren om de stap hierboven te voltooien. Bijvoorbeeld, "Voer gebruikersnaam of e-mail in" en "Voer wachtwoord in" verschijnen als twee aparte details onder de stap "Aanmelden".
+
+
+# Business processes eigen project
+Hieronder zie je het business process voor het opvragen van een specifiek biertje.
+https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Business%20processes/Business%20process.png
