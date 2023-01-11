@@ -60,7 +60,8 @@ Samenvatting leeruitkomst: You analyze (non-functional) requirements, elaborate 
 - [Architectuurmodel](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design)
 
 ## Business processes
-//TODO uitwerken
+Voor business processes heb ik een workshop gevolgd door mijn medestudenten. Hieruit is mijn volgende bestand gekomen:
+- [Business Processes]()
 
 ## Professional
 Ik maak gebruik van GIT. Ik heb een projectbord aangemaakt op github.
