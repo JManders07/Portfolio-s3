@@ -10,6 +10,8 @@ In dit bestand is beschreven wat Agile is en welke vormen er bestaan. Er wordt o
   - [Kanban](#kanban)
   - [Extreme Programming (XP)](#extreme-programming)
 - [Welke vorm gebruik ik](#welke-vorm-gebruik-ik)
+  - [Individueel project](#individueel-project)
+  - [Groepsproject](#groepsproject)
 
 ## Wat is agile?
 Agile is een iteratieve aanpak voor projectmanagement en softwareontwikkeling waarmee teams snel en efficiënt waarde kunnen leveren aan hun klanten. In plaats van alles tegelijk te proberen te lanceren, brengt een agiliteitsteam werk in kleine stukjes uit en evalueert continu vereisten, plannen en resultaten om snel op veranderingen te kunnen reageren. Deze aanpak helpt stress en hoofdpijn te verminderen.
@@ -55,6 +57,8 @@ Nadelen:
 - Het is lastig om focus te behouden omdat er veel regels zijn van lean. Je raakt snel de weg kwijt als je je er niet genoeg in verdiept.
 
 ## Welke vorm gebruik ik
+### Individueel project
 Voor mijn individuele project heb ik er voor gekozen om via de SCRUM methode te werken. Ik heb hiervoor gekozen omdat ik al een beetje bekend was met deze manier van werken. Ik heb in het vorige semester SCRUM gewerkt in het groepsproject. Ik vind dit een erg fijne methode. Ik heb ook de hierboven geschreven methodes onderzocht. Toch heb ik voor SCRUM gekozen. Ik vind het fijn om in sprints te werken. Iedere sprint zette ik doelstellingen op een rijtje om zo een duidelijk beeld te krijgen van wat ik in die sprint ging doen. 
 
+### Groepsproject
 In het groepsproject hebben we ook voor SCRUM gekozen. Dit werkt fijn in groepsverband. Door de standups iedere dag weet je meteen wat de andere personen aan het doen zijn en of ze daar hulp bij nodig hebben. Doordat we deze methode gebruiken kunnen we ook makkelijk wisselen van prioriteiten. Als er met een gesprek van de stakeholder uitkomt dat we een andere functionaliteit moeten implementeren kunnen we ons proces makkelijk omgooien en de nieuwe functionaliteit toevoegen.
