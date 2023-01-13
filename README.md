@@ -20,12 +20,18 @@ Mijn naam is Jelle Manders, 20 jaar oud. Ik ben student aan de opleiding HBO-ICT
 ## Web Application
 Samenvatting leeruitkomst: You design and build user-friendly, full-stack web applications.
 
-Voor dit leeruitkomst heb ik een full stack web applicatie voor bierliefhebbers gemaakt:
+Voor dit leeruitkomst heb ik een full stack web applicatie voor bierliefhebbers gemaakt met een frontend geschreven met Vue met Vue bootstrap. De backend is geschreven met c# met entity framework:
 - [Individueel project](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Web-application)
 
-Ook heb ik een UX/UI onderzoek uitgevoerd:
+Ook heb ik een UX/UI onderzoek uitgevoerd voor het user-friendly deel van de web application:
 - [UI/UX onderzoek](https://github.com/JManders07/Portfolio-s3/blob/main/IP/Learningoutcomes/Web-application/UI%20research.pdf)
 
+### Reflectie
+#### Wat ging er goed?
+
+#### Wat kon er beter?
+
+#### Wat doe ik de volgende keer anders:
 
 ## Software quality
 Samenvatting leeruitkomst: You use software tooling and methodology that continuously monitors and improve the software quality during software development.
