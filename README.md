@@ -38,7 +38,7 @@ Ook is het belangrijk om de meest voorkomende softwareproblemen voor te blijven.
 
 ## Agile
 Samenvatting leeruitkomst: You choose and implement the most suitable agile software development method for your software project.
-In dit semester heb ik ervoor gekozen om met de agile methode SCRUM te werken. 
+In dit semester heb ik ervoor gekozen om met de agile methode SCRUM in combinatie met Kanban te werken. 
 - [Agile onderzoek](https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method)
 
 ## CI/CD
