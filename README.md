@@ -79,6 +79,10 @@ Wat kan er beter?
 
 Ik ben in het begin veel met onderzoek bezig geweest. Te veel zelfs, ik had eerder moeten beginnen met het concreet afmaken van de uitkomsten van mijn onderzoek. Ook had ik mijn onderzoek beter moeten notuleren. Verder ben ik op het laatst te laat begonnen en heb ik erg hard moeten werken de laatste weken met als resultaat dat niet alles is geworden als hoe ik het voor me had gezien. 
 
+Wat ga ik de volgende keer anders doen?
+
+De volgende keer ga ik eerder beginnen met concrete voorbeelden te maken. Wanneer ik onderzoek heb gedaan ga ik meteen een prototype maken en daarna dit verwerken in mijn hoofdapplicatie. Voor het onderzoek houd ik de volgende keer een logboek bij. Wanneer ik een site heb bezocht, een stuk tekst heb gezien of een video heb gezien plak ik deze link in mijn logboek. Zo kan ik altijd terugvinden waar ik informatie vandaan heb.
+
 Huidige zelfreflectie:
 Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
 |:-------------|:------------|:-----------------|:----:|
@@ -86,9 +90,9 @@ Leeruikomst | Beoordeling | Uitleg | Link naar leeruikomst |
 | Software quality | Proficient | Onderzoek gedaan naar wat ik moet doen voor de software kwaliteit. Unit test en integratietests geschreven. end 2 end test geschreven. Deze is ook geautomatisserd wanneer ik push. Ook is SonarCloud geautomatiseerd wanneer ik push. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Software%20quality
 | Agile | Proficient | Ik werk in sprints met user stories. Ook in het groepsproject maken we gebruik van sprints. Ik bekijk iedere sprint wat er moet gebeuren en pas waar nodig de requirements aan zodat ik flexibel te werk kan gaan. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Agile%20method
 | CI/CD | Proficient | Ik heb gekeken wat ik hiervoor moet doen en onderzoek gedaan. Ik heb Sonarcloud werkend gekregen. Iedere keer als ik push dan wordt de scan uitgevoerd. Ook wordt de end2end test automatisch uitgevoerd door github actions. De applicatie is gedockerized. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/CICD
-| Cultural differences and ethics | Beginning | Ik schrijf onderzoeken en code in het Engels en praat Engels wanneer er iemand uit het buitenland bij is. Ik heb een workshop voorbereid (//todo geven). Ik houd rekening met hoe mijn groepsgenoten zijn. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
+| Cultural differences and ethics | Proficient | Ik schrijf onderzoeken en code in het Engels en praat Engels wanneer er iemand uit het buitenland bij is. Ik heb een workshop voorbereid. Ik houd rekening met hoe mijn groepsgenoten zijn. De keuzes in mijn software zijn ook ethisch | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Cultural%20differences%20and%20ethics
 | Requirements and design | Proficient | Ik heb requirements opgesteld en gesorteerd op MoSCow wijze. Ook heb ik userstories gemaakt. Verder heb ik designs gemaakt. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Requirements%20and%20design
-| Business processes | beginning | Business processen nog beschrijven. | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
+| Business processes | Proficient | Ik heb business process uitgewerkt en mijn eigen business process gemaakt voor het aanmaken van een biertje | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Business%20processes
 | Professional | Proficient | Ik maak gebruik van GIT. Voor front en back-end een aparte repo gemaakt. Onderzoek en code in het Engels zodat ook andere mijn onderzoek en code kunnen bekijken. Ik heb iedere week een gesprek met mijn individuele docent om te laten zien wat ik heb. In het groepsproject hebben we iedere 3 weken een gesprek met de stakeholder. We gaan hierin het gesprek aan over wat zij willen dat er klaar is de volgende sprint. Ik maak gebruik van het Github planningsbord met labels. Zo heb ik altijd duidelijk wat ik doe en kunnen anderen die in mijn project inspringen | https://github.com/JManders07/Portfolio-s3/tree/main/IP/Learningoutcomes/Professional
 
 2e zelfreflectie:
