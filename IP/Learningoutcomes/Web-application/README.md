@@ -11,6 +11,12 @@ Voor accounts gebruik in een extentie genaamd Auth0. Auth0 is makkelijk toe te v
 
 ![image](https://user-images.githubusercontent.com/113422379/211667445-0f51f4fe-b74b-457c-b707-80c6f5c0396a.png)
 
+Om verder in te gaan op Auth0, heb ik een functionaliteit toegevoegd die ervoor zorgt dat je alleen als admin de create functie kunt uitvoeren. Zoals je hieronder in het filmpje ziet is er niet ingelogd. De create functie is niet zichtbaar. Wanneer ik inlog met Admin@Admin.com verschijnt de create beer button. Als ik vervolgens inlog met jellemanders2001@gmail.com verdwijnt de create button weer.
+
+
+https://user-images.githubusercontent.com/113422379/212413145-749beff0-16ba-4a06-9b75-32b384360721.mp4
+
+
 
 Gebruikers van mijn applicatie kunnen een review achterlaten op een bepaald biertje. Ze kunnen een score geven van 1 tot 10 op basis van sterren. Dit maakt het wat gebruiksvriendelijker dan een getal. Ook kunnen ze een reactie typen als toevoeging op de review.
 
@@ -71,3 +77,7 @@ Hieronder zie je een afbeelding van hoe een GET method eruit ziet:
 Voor mijn project maak ik gebruik van aparte git repo's voor de backend en frontend.  
 [BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)  
 [BeerWithFriends-Back-end](https://github.com/JManders07/BeerWithFriends-Back-end)
+
+
+https://user-images.githubusercontent.com/113422379/212413108-6ee0e8f9-3903-4238-83bb-a1b9fc9abe4f.mp4
+
