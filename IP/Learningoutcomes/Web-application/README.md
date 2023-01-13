@@ -77,7 +77,3 @@ Hieronder zie je een afbeelding van hoe een GET method eruit ziet:
 Voor mijn project maak ik gebruik van aparte git repo's voor de backend en frontend.  
 [BeerWithFriends-Front-end](https://github.com/JManders07/BeerWithFriends-Front-end)  
 [BeerWithFriends-Back-end](https://github.com/JManders07/BeerWithFriends-Back-end)
-
-
-https://user-images.githubusercontent.com/113422379/212413108-6ee0e8f9-3903-4238-83bb-a1b9fc9abe4f.mp4
-
